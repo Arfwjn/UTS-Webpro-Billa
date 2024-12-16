@@ -1,0 +1,90 @@
+/* Mengatur tampilan dasar halaman */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Mengatur style form */
+form {
+  background-color: #ffffff;
+  padding: 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+/* Judul pada form */
+form h2 {
+  text-align: center;
+  color: #333333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Label input */
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #555555;
+}
+
+/* Input fields */
+form input[type="text"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* Tombol submit */
+form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Hover efek pada tombol */
+form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Link registrasi */
+form .registrasi {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* Hover efek pada link registrasi */
+form .registrasi:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Fokus pada input field */
+form input[type="text"]:focus,
+form input[type="password"]:focus {
+  border-color: #4caf50;
+  outline: none;
+}
