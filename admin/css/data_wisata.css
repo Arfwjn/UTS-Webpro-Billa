@@ -1,0 +1,79 @@
+/* Styling untuk halaman Data wisata */
+.wisata-content {
+  background-color: #ffffff;
+  padding: 15px; /* Mengurangi padding pada kontainer */
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Mengurangi shadow */
+}
+
+.wisata-heading {
+  font-size: 22px; /* Memperbesar ukuran heading */
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 12px; /* Mengurangi margin bawah */
+}
+
+.wisata-form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Mengurangi gap antar elemen dalam form */
+}
+
+.wisata-label {
+  font-size: 16px; /* Memperbesar ukuran font label */
+  color: #333333;
+  margin-bottom: 5px; /* Mengurangi margin bawah */
+}
+
+.wisata-input,
+.wisata-textarea,
+.wisata-file,
+.wisata-submit-btn {
+  width: 100%;
+  padding: 12px; /* Memperbesar padding dalam input dan textarea */
+  margin-bottom: 8px; /* Mengurangi jarak antar elemen */
+  border: 1px solid #ccc;
+  border-radius: 4px; /* Mengurangi border radius */
+  font-size: 16px; /* Memperbesar ukuran font */
+}
+
+.wisata-textarea {
+  resize: vertical;
+  min-height: 100px; /* Menetapkan tinggi minimum untuk textarea */
+}
+
+.wisata-submit-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px; /* Memperbesar padding pada tombol */
+  border: none;
+  border-radius: 4px; /* Mengurangi border radius pada tombol */
+  font-size: 16px; /* Memperbesar ukuran font tombol */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.wisata-submit-btn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .wisata-heading {
+    font-size: 20px; /* Menyesuaikan ukuran heading untuk layar kecil */
+  }
+
+  .wisata-label,
+  .wisata-input,
+  .wisata-textarea,
+  .wisata-file,
+  .wisata-submit-btn {
+    font-size: 15px; /* Menyesuaikan ukuran font untuk layar kecil */
+  }
+
+  .wisata-input,
+  .wisata-textarea,
+  .wisata-file,
+  .wisata-submit-btn {
+    padding: 10px; /* Mengurangi padding untuk ukuran layar kecil */
+  }
+}

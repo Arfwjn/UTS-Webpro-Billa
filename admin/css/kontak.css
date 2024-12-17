@@ -1,0 +1,79 @@
+/* Reset margin dan padding */
+
+/* Gaya untuk container */
+.container {
+  background: #ffffff; /* Latar belakang putih */
+  padding: 20px;
+  border-radius: 8px; /* Membulatkan sudut */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+  max-width: 600px;
+  margin: 50px auto; /* Pusatkan kontainer */
+  border: 1px solid #e0e0e0; /* Garis tipis di sekitar kontainer */
+}
+
+/* Gaya untuk heading */
+.container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #007bff; /* Warna biru */
+}
+
+/* Gaya label */
+form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Gaya input dan textarea */
+form .form-control {
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+/* Fokus pada input */
+form .form-control:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+}
+
+/* Gaya tombol */
+form .btn-primary {
+  background: #007bff;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+/* Hover pada tombol */
+form .btn-primary:hover {
+  background: #0056b3;
+}
+
+/* Gaya untuk textarea */
+form textarea {
+  resize: vertical; /* Batasi pengubahan ukuran */
+  min-height: 100px;
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 576px) {
+  .container {
+    padding: 15px;
+    margin: 20px auto;
+  }
+}
